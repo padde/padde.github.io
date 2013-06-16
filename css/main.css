@@ -1,0 +1,166 @@
+body {
+  font-size: 18px;
+  line-height: 1.5em;
+  font-family: 'Alegreya';
+  margin: 0 auto;
+  color: #333;
+  padding: 0 1em;
+  border-top: 0.25em solid #922014;
+  background: url('/images/paper.png');
+  background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato';
+}
+
+#content h1:not(:first-child),
+#content h2:not(:first-child),
+#content h3:not(:first-child),
+#content h4:not(:first-child),
+#content h5:not(:first-child),
+#content h6:not(:first-child) {
+  margin-top: 1.5em;
+}
+
+body > * {
+  max-width: 40em;
+  margin: 0 auto;
+  clear: both;
+}
+
+header hgroup {
+  float: left;
+  width: 14em;
+}
+
+header nav {
+  margin-bottom: 3em;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  text-align: right;
+}
+
+header nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+header nav li a {
+  display: inline-block;
+  padding-top: 2.1em;
+  font-family: 'Lato';
+  font-size: 0.86em;
+  text-decoration: none;
+}
+
+body > header {
+  margin-top: 1em;
+}
+
+body > header a {
+  color: #333;
+}
+
+body > header a:hover {
+  color: #922014;
+}
+
+body > header h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1em;
+}
+
+body > header h2 {
+  color: #922014;
+  font-family: 'Alegreya';
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+body > header h2 .code {
+  font-family: 'Source Code Pro';
+  font-size: 0.95em;
+}
+
+body > header h2 .typography {
+  font-style: italic;
+}
+
+body > header h2 .stuff {
+  font-family: 'Lato';
+  font-size: 0.95em;
+  margin-left: 0.1em;
+}
+
+#head {
+  float: left;
+  padding: 0.5em 0.5em 0 0;
+  height: 3em;
+  margin: 0
+}
+
+em.name {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #136592;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-family: 'Source Code Pro';
+  font-size: 0.95em;
+  line-height: 1em;
+  /* border: 1px solid rgba(0,0,0,0.15); */
+  border-radius: 0.2em;
+  background-color: rgba(255,255,255,0.7);
+}
+
+code * {
+  font-weight: normal !important;
+}
+
+pre code {
+  border: none;
+}
+
+pre {
+  padding: 0.3em 0.6em;
+  border-radius: 0.2em;
+  font-family: 'Source Code Pro';
+  font-size: 0.8em;
+  line-height: 1.25em;
+}
+
+.highlight {
+  border-radius: 0.2em;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+footer {
+  margin-top: 3em;
+  font-family: 'Lato';
+  font-size: 0.75em;
+  text-align: center;
+}
+
+p.meta {
+  margin: 0;
+  margin-top: -1.5em;
+  font-family: 'Lato';
+  font-size: 0.75em;
+}
