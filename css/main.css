@@ -1,3 +1,13 @@
+.clearfix:before, .clearfix:after {
+  content: "\0020"; 
+  display: block; 
+  height: 0; 
+  overflow: hidden;
+
+}
+.clearfix:after { clear: both;  }
+.clearfix { zoom: 1;  }
+
 body {
   font-size: 18px;
   line-height: 1.5em;
@@ -21,6 +31,28 @@ h1, h2, h3, h4, h5, h6 {
 #content h5:not(:first-child),
 #content h6:not(:first-child) {
   margin-top: 1.5em;
+}
+
+dl {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+	
+dt {
+	clear: left;
+	float: left;
+	margin: 0;
+	padding-right: 0.2em;
+	font-weight: bold;
+  width: 13em;
+  line-height: 1em;
+}
+	
+dd {
+	float: left;
+	margin: 0;
+  line-height: 1.5em;
 }
 
 body > * {
@@ -195,5 +227,15 @@ p.meta {
     margin: 0 0.2em;
     background: rgba(255,255,255,0.8);
     border-radius: 0.3em;
+  }
+
+  dt {
+    display: block;
+    float: none;
+  }
+
+  dd {
+    display: block;
+    margin-bottom: 1em;
   }
 }
