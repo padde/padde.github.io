@@ -197,6 +197,11 @@ p.meta {
   font-size: 0.75em;
 }
 
+.post img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 
 #comments {
   margin: 0;
