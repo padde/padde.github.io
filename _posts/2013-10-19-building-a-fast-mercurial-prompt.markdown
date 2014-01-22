@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building a fast Mercurial prompt"
+title:  "Building A Fast Mercurial Prompt"
 date:   2013-10-19 19:45:07
 categories:
 ---

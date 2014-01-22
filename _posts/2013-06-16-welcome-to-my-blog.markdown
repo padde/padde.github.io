@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to my Blog!"
+title:  "Welcome To My Blog!"
 date:   2013-06-16 15:26:42
 categories:
 ---
