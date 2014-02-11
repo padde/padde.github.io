@@ -34,6 +34,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
 }
 
+#content h1 a,
+#content h2 a,
+#content h3 a,
+#content h4 a,
+#content h5 a,
+#content h6 a {
+  text-decoration: none;
+  color: #333
+}
+
 dl {
 	float: left;
 	margin: 0;
