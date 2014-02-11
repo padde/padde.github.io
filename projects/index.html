@@ -7,9 +7,11 @@ title: Projects
   <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
   <p class="meta">
     {{ project.date | date: "%b %Y" }}
+    <span class="tags">
     {% for tag in project.tags %}
       <span class="tag">{{ tag }}</span>
     {% endfor %}
+    </span>
   </p>
   <a href="{{ project.url }}" class="preview-image"><img src="/assets/{{ project.preview-image }}" /></a>
   <p>

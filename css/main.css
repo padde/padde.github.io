@@ -226,6 +226,15 @@ a.preview-image {
   text-shadow: -1px -1px 1px rgba(0,0,0,0.4);
 }
 
+.tags {
+  float: right;
+}
+
+.preview-image,
+.project .content {
+  clear: both;
+}
+
 
 #comments {
   margin: 0;

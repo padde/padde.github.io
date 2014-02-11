@@ -5,12 +5,14 @@ layout: default
 <article class="project">
   <p class="meta">
     {{ page.date | date: "%b %Y" }}
+    <span class="tags">
     {% for tag in page.tags %}
       <span class="tag">{{ tag }}</span>
     {% endfor %}
+    </span>
   </p>
 
-  <div>
+  <div class="content">
     {{ content }}
   </div>
 </article>
