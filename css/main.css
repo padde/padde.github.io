@@ -199,7 +199,7 @@ p.meta {
   font-size: 0.75em;
 }
 
-.post img {
+img {
   display: block;
   max-width: 100%;
   margin: 0 auto;

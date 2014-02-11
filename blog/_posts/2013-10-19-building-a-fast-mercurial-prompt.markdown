@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: blog
 title:  "Building A Fast Mercurial Prompt"
-date:   2013-10-19 19:45:07
-categories:
 ---
 
 I recently switched from ZSH to [FISH](http://fishshell.com) and I took this as an opportunity to clean up [my dotfiles](http://github.com/padde/dotfiles) and fix all the things that should have been fixed a long time ago. A major issue with my old configuration was that the prompt rendered really slowly (~0.5s) after I had added Mercurial information to it. In this post I will outline how I managed to dramatically increase the rendering speed. First of all, let's have a look at a screenshot of the result.

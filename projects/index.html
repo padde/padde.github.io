@@ -1,0 +1,11 @@
+---
+layout: default
+title: Projects
+---
+
+{% for project in site.categories.projects %}
+  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  <p class="meta">{{ project.date | date: "%b %Y" }}</p>
+  <p>{{ project.content | strip_html | truncatewords:50 }}</p>
+  <img src="/assets/{{ project.preview-image }}" />
+{% endfor %}
