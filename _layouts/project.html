@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<article>
+<article class="project">
   <p class="meta">{{ page.date | date: "%b %Y" }}</p>
 
-  <div class="project">
+  <img src="/assets/{{ page.preview-image }}" />
+
+  <div>
     {{ content }}
   </div>
 </article>
