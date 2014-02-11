@@ -5,7 +5,15 @@ title: Projects
 
 {% for project in site.categories.projects %}
   <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-  <p class="meta">{{ project.date | date: "%b %Y" }}</p>
-  <a href="{{ project.url }}"><img src="/assets/{{ project.preview-image }}" /></a>
-  <p>{{ project.content | strip_html | truncatewords:50 }}</p>
+  <p class="meta">
+    {{ project.date | date: "%b %Y" }}
+    {% for tag in project.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </p>
+  <a href="{{ project.url }}" class="preview-image"><img src="/assets/{{ project.preview-image }}" /></a>
+  <p>
+    {{ project.content | strip_html | truncatewords:50 }}
+    <a href="{{ project.url }}">Read more »</a>
+  </p>
 {% endfor %}

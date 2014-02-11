@@ -3,9 +3,12 @@ layout: default
 ---
 
 <article class="project">
-  <p class="meta">{{ page.date | date: "%b %Y" }}</p>
-
-  <img src="/assets/{{ page.preview-image }}" />
+  <p class="meta">
+    {{ page.date | date: "%b %Y" }}
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </p>
 
   <div>
     {{ content }}
