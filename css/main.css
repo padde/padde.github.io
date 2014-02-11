@@ -286,4 +286,10 @@ a.preview-image {
     display: block;
     margin-bottom: 1em;
   }
+
+  a.preview-image {
+    display: inline;
+    border: none;
+    box-shadow: none;
+  }
 }
