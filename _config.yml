@@ -1,3 +1,4 @@
 name: Patrick Oscity
 pygments: true
 permalink: /:categories/:title
+markdown: rdiscount
