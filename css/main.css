@@ -212,7 +212,7 @@ p.meta {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0.5em auto;
 }
 
 a.preview-image {
