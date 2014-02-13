@@ -1,0 +1,25 @@
+---
+layout: project
+title: Matisse
+tags: ruby gem open-source
+preview-image: projects/2013-10-01-matisse.png
+---
+
+Matisse is a Ruby Gem that I have created. It is named after the famous french painter
+[Henri Matisse](http://en.wikipedia.org/wiki/Henri_Matisse), who is known for his colorful
+works. It is meant as a replacement for the IRB output highlighter that ships with
+[Wirble](http://rubygems.org/gems/wirble) since that did not fully meet my expectations.
+Matisse is available as a Ruby Gem and can be installed with `gem install matisse`. The
+code is open source and [can be found on Github](http://github.com/padde/matisse).
+
+Consider the following IRB session with Wirble's highlighting enabled. It has problems with
+highlighting exclusive ranges (those with three dots), and does not colorize all objects so
+these are not always easy to spot.
+
+![Screenshot of Wirble](/assets/projects/2013-10-01-matisse-wirble.png)
+
+Matisse, on the other hand, has a default highlighting and is easily extensible and customisable.
+It renders standard objects like those pesky ranges correctly and highlights all objects so
+these can easily be spotted when skimming through your session.
+
+![Screenshot of Matisse](/assets/projects/2013-10-01-matisse.png)
