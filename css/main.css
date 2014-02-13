@@ -223,17 +223,15 @@ a.preview-image {
   box-shadow: 0 10px 15px -10px rgba(255,255,255,0.75);
 }
 
-.tag:first-child {
-  margin-left: 2em;
-}
-
 .tag {
+  display: inline-block;
   background: #79AED6;
-  padding: 0.1em 0.5em 0.35em;
+  line-height: 1.5em;
+  padding: 0 0.25em;
   border-radius: 0.3em;
   font-size: 0.75rem;
   color: white;
-  text-shadow: -1px -1px 1px rgba(0,0,0,0.4);
+  text-shadow: -1px -1px rgba(0,0,0,0.4);
 }
 
 .tags {
@@ -291,5 +289,11 @@ a.preview-image {
     display: inline;
     border: none;
     box-shadow: none;
+  }
+
+  .tags {
+    float: none;
+    display: block;
+    padding-left: 0;
   }
 }
