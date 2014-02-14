@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Max Heiratet Elisa
+title: Max ⚭ Elisa
 tags: ruby sinatra
 preview-image: projects/placeholder.png
 ---
