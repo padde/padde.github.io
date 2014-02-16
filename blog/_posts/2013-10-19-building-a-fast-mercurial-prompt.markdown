@@ -85,10 +85,10 @@ characters is simply because that's the way Git presents you a short hash and I
 like to keep things consistent. The improved command looks like this:
 
 {% highlight bash %}
-$ hexdump -n 20 -e '1/1 "%02x"' .hg/dirstate | cut -c-7
+$ hexdump -n 4 -e '1/1 "%02x"' .hg/dirstate | cut -c-7
 5f2f1a4
 
-$ time hexdump -n 20 -e '1/1 "%02x"' .hg/dirstate | cut -c-7
+$ time hexdump -n 4 -e '1/1 "%02x"' .hg/dirstate | cut -c-7
       0.00 real         0.00 user         0.00 sys
 {% endhighlight %}
 
