@@ -5,7 +5,7 @@ tags: ruby gem open-source
 preview-image: projects/2013-10-01-matisse.png
 ---
 
-Matisse is a Ruby Gem that I have created. It is named after the famous french painter
+Matisse is a Ruby Gem that I created. It is named after the famous french painter
 [Henri Matisse](http://en.wikipedia.org/wiki/Henri_Matisse), who is known for his colorful
 works. It is meant as a replacement for the IRB output highlighter that ships with
 [Wirble](http://rubygems.org/gems/wirble) since that did not fully meet my expectations.
