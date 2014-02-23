@@ -2,7 +2,7 @@
 layout: project
 title:  Gnomobile
 tags: iphone-app bauhaus-uni-weimar
-preview-image: projects/2012-03-01-gnomobile.png
+preview-image: /assets/projects/2012-03-01-gnomobile.png
 ---
 
 [Gnomobile](http://gnomobile.de) is an iPhone app that was built during the project "Time Machines"

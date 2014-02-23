@@ -2,7 +2,7 @@
 layout: project
 title:  Praxis Dr. Gabriel
 tags: ruby rails
-preview-image: projects/2011-04-01-praxis-dr-gabriel.png
+preview-image: /assets/projects/2011-04-01-praxis-dr-gabriel.png
 ---
 
 Homepage for Munich-based alternative medicine doctors Gabriel. They needed a

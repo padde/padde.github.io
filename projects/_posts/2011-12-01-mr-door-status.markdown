@@ -2,7 +2,7 @@
 layout: project
 title:  MR Door Status
 tags: ruby sinatra javascript design
-preview-image: projects/2011-12-01-mr-door-status.png
+preview-image: /assets/projects/2011-12-01-mr-door-status.png
 ---
 
 MR Door Status ([mrdoor.paddd.de](http://mrdoor.paddd.de)) is a web app to

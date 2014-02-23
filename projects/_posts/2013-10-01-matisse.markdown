@@ -2,7 +2,7 @@
 layout: project
 title: Matisse
 tags: ruby gem open-source
-preview-image: projects/2013-10-01-matisse.png
+preview-image: /assets/projects/2013-10-01-matisse.png
 ---
 
 Matisse is a Ruby Gem that I created. It is named after the famous french painter

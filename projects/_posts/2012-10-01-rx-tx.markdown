@@ -2,7 +2,7 @@
 layout: project
 title: Rx/Tx
 tags: iphone-app ruby design bauhaus-uni-weimar
-preview-image: projects/2012-10-01-rx-tx-start.png
+preview-image: /assets/projects/2012-10-01-rx-tx-start.png
 ---
 
 The iPhone app Rx/Tx is part of my bachelor thesis in Computer Science and Media.

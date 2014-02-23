@@ -2,7 +2,7 @@
 layout: project
 title: Elisa & Max
 tags: ruby sinatra
-preview-image: projects/2012-05-01-elisa-max.png
+preview-image: /assets/projects/2012-05-01-elisa-max.png
 ---
 
 Elisa & Max is a website for a wedding. The couple needed a way to easily

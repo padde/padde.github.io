@@ -17,7 +17,7 @@ to the right denote which part of the projects I have contributed to.
     {% endfor %}
     </span>
   </p>
-  <a href="{{ project.url }}" class="preview-image"><img src="/assets/{{ project.preview-image }}" /></a>
+  <a href="{{ project.url }}" class="preview-image"><img src="{{ project.preview-image }}" /></a>
   <p>
     {{ project.content | strip_html | truncatewords:50 }}
     <a href="{{ project.url }}">Read more »</a>

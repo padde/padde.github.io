@@ -2,7 +2,7 @@
 layout: project
 title:  5 Beaufort
 tags: php wordpress design
-preview-image: projects/2012-01-01-5-beaufort.png
+preview-image: /assets/projects/2012-01-01-5-beaufort.png
 ---
 
 5 Beaufort is a wind quintet based in Weimar, Germany. They needed a

@@ -2,7 +2,7 @@
 layout: project
 title: Remote IP
 tags: ruby rack open-source
-preview-image: projects/2012-11-01-remote-ip-browser.png
+preview-image: /assets/projects/2012-11-01-remote-ip-browser.png
 ---
 
 Remote IP is a tiny web service that simply returns the IP of the remote client.

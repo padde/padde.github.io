@@ -2,7 +2,7 @@
 layout: project
 title:  Bauhaus Katalog
 tags: ruby rails bauhaus-uni-weimar
-preview-image: projects/2010-10-01-bauhaus-katalog.png
+preview-image: /assets/projects/2010-10-01-bauhaus-katalog.png
 ---
 
 The Bauhaus Katalog ([katalog.bau-ha.us](http://katalog.bau-ha.us)) was an

@@ -2,7 +2,7 @@
 layout: project
 title:  Turbo Tutorium
 tags: ruby rails design bauhaus-uni-weimar
-preview-image: projects/2009-10-01-turbo-tutorium.png
+preview-image: /assets/projects/2009-10-01-turbo-tutorium.png
 ---
 
 Turbo Tutorium was a project at Bauhaus-Universität Weimar where students organized tutorials
