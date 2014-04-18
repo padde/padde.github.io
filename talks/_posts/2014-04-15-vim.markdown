@@ -2,5 +2,5 @@
 layout: talk
 title:  Vim
 tags: vim command-line m18 maschinenraum weimar
-slides: /slides/2014/04/15/vim
+slides: /talks/2014/04/15/vim
 ---
