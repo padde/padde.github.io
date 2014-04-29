@@ -150,6 +150,12 @@ body > header h2 .stuff {
   margin: 0
 }
 
+/* prevent jumping when image is loaded */
+body > header h1,
+body > header h2 {
+  margin-left: 3.7rem;
+}
+
 em.name {
   font-family: 'Alegreya SC';
   font-style: normal;
