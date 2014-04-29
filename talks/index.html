@@ -4,7 +4,7 @@ title: Talks
 ---
 
 {% for talk in site.categories.talks %}
-  <h3><a href="{{ talk.slides }}">{{ talk.title }}</a></h3>
+  <h3><a href="{{ talk.slides }}" data-no-turbolink>{{ talk.title }}</a></h3>
   <p class="meta">
     {{ talk.date | date: "%d %b %Y" }}
     <span class="tags">
