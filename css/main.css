@@ -18,7 +18,7 @@ body {
   border-top: 0.25em solid #922014;
   background-color: #FAF4E9;
   background-image: url('/images/paper.png');
-  background-position: center;
+  background-position: top center;
 }
 
 h1, h2, h3, h4, h5, h6 {
