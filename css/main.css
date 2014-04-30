@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato';
 }
 
+h2, h3, h4, h5, h6 {
+  clear: both;
+}
+
 #content h1:not(:first-child),
 #content h2:not(:first-child),
 #content h3:not(:first-child),
@@ -46,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 dl {
 	float: left;
-	margin: 0;
+	margin: 0 0 18px 0;
 	padding: 0;
 }
 	

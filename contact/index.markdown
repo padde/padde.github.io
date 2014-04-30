@@ -14,6 +14,21 @@ Deutschland/Germany<br>
 <br>
 &#43;&#52;&#57; &#49;&#53;&#49; &#50;&#53;&#51;&#56;&#51;&#51;&#57;&#50;
 
+#### Please Send Me Encrypted Mail
+
+My PGP Fingerprint is
+
+{% highlight text %}
+7B8E 3327 8E52 E3E1 8392  92AE CCBB 382F 5F9D 1786
+{% endhighlight %}
+
+You can download my full public key from
+[my GitHub page](https://gist.github.com/padde/d010b972d5a2a3701938).
+For more information on how to send and receive encrypted e-mail, please visit
+[GPGTools (Mac)](https://gpgtools.org/),
+[GPG4Win (Windows)](http://gpg4win.de/) or
+[GPA (Linux)](https://www.gnupg.org/related_software/gpa/index.en.html).
+
 
 ### Legal Disclosure
 
