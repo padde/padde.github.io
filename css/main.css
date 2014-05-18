@@ -11,7 +11,7 @@
 body {
   font-size: 18px;
   line-height: 1.5em;
-  font-family: 'Alegreya';
+  font-family: 'Bitter';
   margin: 0 auto;
   color: #333;
   padding: 0 1em;
@@ -121,27 +121,12 @@ body > header h1 {
 
 body > header h2 {
   color: #922014;
-  font-family: 'Alegreya';
+  font-family: 'Bitter';
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1em;
   margin: 0;
   padding: 0;
-}
-
-body > header h2 .code {
-  font-family: 'Source Code Pro';
-  font-size: 0.95em;
-}
-
-body > header h2 .typography {
-  font-style: italic;
-}
-
-body > header h2 .stuff {
-  font-family: 'Lato';
-  font-size: 0.95em;
-  margin-left: 0.1em;
 }
 
 #head {
@@ -155,11 +140,6 @@ body > header h2 .stuff {
 body > header h1,
 body > header h2 {
   margin-left: 3.7rem;
-}
-
-em.name {
-  font-family: 'Alegreya SC';
-  font-style: normal;
 }
 
 a {
@@ -286,6 +266,7 @@ a.preview-image {
     margin: 0 0.2em;
     background: rgba(255,255,255,0.8);
     border-radius: 0.3em;
+    font-weight: bold;
   }
 
   dt {
