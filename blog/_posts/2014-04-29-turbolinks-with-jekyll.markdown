@@ -28,7 +28,33 @@ Just add the following line to your page layout
 <script src="/javascript/turbolinks.js" type="text/javascript" charset="utf-8"></script>
 {% endhighlight %}
 
-### 3. Done!
+### 3. Fix your Javascript
+
+When you use Javascript on your site, you need to make sure that everything is still working.
+A common pattern is to use the `ready` event on `document` to make sure code gets run every
+time a page has finished loading like so:
+
+{% highlight javascript %}
+$(document).ready(function() {
+  // do stuff
+});
+{% endhighlight %}
+
+This will however only trigger an event on the first page load now, not as subsequent links are
+clicked on your site. Luckily, Turbolinks provides an event that you can listen to instead:
+`page:load`. In order to get back the same behavior as before, you can extract the code into a
+function and add it to both events:
+
+{% highlight javascript %}
+var ready = function() {
+  // do stuff
+}
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
+{% endhighlight %}
+
+### 4. Done!
 
 Fire up jekyll locally with `jekyll serve` and watch the awesome! If you're having problems,
 a more detailed [blog post by Carlos Becker](http://carlosbecker.com/posts/turbolinks/) has
