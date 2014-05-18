@@ -173,11 +173,14 @@ a:hover {
 
 code {
   font-family: 'Source Code Pro';
-  font-size: 0.95em;
+  font-size: 0.85em;
   line-height: 1em;
   /* border: 1px solid rgba(0,0,0,0.15); */
   border-radius: 0.2em;
   background-color: rgba(255,255,255,0.7);
+  border: 1px solid rgba(0,0,0,0.15);
+  padding: 0 0.3em 0.1em;
+  vertical-align: center;
 }
 
 code * {
@@ -186,21 +189,23 @@ code * {
 
 pre code {
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 pre {
   overflow: scroll;
-  padding: 0.3em 0.6em;
-  border-radius: 0.2em;
+  padding: 0.25em 0.5em 0.5em;
   font-family: 'Source Code Pro';
-  font-size: 0.8em;
-  line-height: 1.25em;
-  margin: 2.5em 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0;
 }
 
 .highlight {
-  border-radius: 0.2em;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  border-radius: 0.3em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 1px solid rgb(197, 197, 197);
 }
 
 footer {
