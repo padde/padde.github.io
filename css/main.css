@@ -25,16 +25,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato';
 }
 
-h2, h3, h4, h5, h6 {
-  clear: both;
-}
-
 #content h1:not(:first-child),
 #content h2:not(:first-child),
 #content h3:not(:first-child),
 #content h4:not(:first-child),
 #content h5:not(:first-child),
 #content h6:not(:first-child) {
+  clear: both;
   margin-top: 1.5em;
 }
 
