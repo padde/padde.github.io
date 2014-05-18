@@ -8,9 +8,7 @@ Rußheider Weg 8<br>
 33604 Bielefeld<br>
 Deutschland/Germany<br>
 <!-- http://ctrlq.org/encode/ -->
-<a href="mailto:&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
-  &#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
-</a>
+<a href="mailto:&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;">&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;</a>
 <br>
 &#43;&#52;&#57; &#49;&#53;&#49; &#50;&#53;&#51;&#56;&#51;&#51;&#57;&#50;
 
@@ -42,7 +40,7 @@ Germany
 #### Contact
 
 Telephone: &#43;&#52;&#57; &#49;&#53;&#49; &#50;&#53;&#51;&#56;&#51;&#51;&#57;&#50;<br>
-E-Mail: <a href="mailto:&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a><br>
+E-Mail: <a href="mailto:&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;">&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;</a><br>
 Website: [http://www.patrickoscity.de](http://www.patrickoscity.de)
 
 #### Person responsible for content in accordance with 55 Abs. 2 RStV
@@ -88,7 +86,7 @@ This website uses Google Analytics, a web analysis service of Google Inc. (Googl
 
 #### Disclosure
 
-According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the following e-mail addresses: <a href="mailto:&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.
+According to the Federal Data Protection Act, you have a right to free-of-charge information about your stored data, and possibly entitlement to correction, blocking or deletion of such data. Inquiries can be directed to the following e-mail addresses: <a href="mailto:&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;">&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;</a>.
 
 ### Impressum
 
@@ -102,7 +100,7 @@ Deutschland
 #### Kontakt
 
 Telefon: &#43;&#52;&#57; &#49;&#53;&#49; &#50;&#53;&#51;&#56;&#51;&#51;&#57;&#50;<br>
-E-Mail: <a href="mailto:&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a><br>
+E-Mail: <a href="mailto:&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;">&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;</a><br>
 Internetadresse: [http://www.patrickoscity.de](http://www.patrickoscity.de)
 
 #### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
@@ -148,7 +146,7 @@ Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (
 
 #### Auskunft
 
-Nach dem Bundesdatenschutzgesetz haben Sie ein Recht auf unentgeltliche Auskunft über Ihre gespeicherten Daten sowie ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Fragen können Sie z.B. über die folgende E-Mail-Adresse stellen: <a href="mailto:&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#112;&#97;&#116;&#114;&#105;&#99;&#107;&#46;&#111;&#115;&#99;&#105;&#116;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.
+Nach dem Bundesdatenschutzgesetz haben Sie ein Recht auf unentgeltliche Auskunft über Ihre gespeicherten Daten sowie ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Fragen können Sie z.B. über die folgende E-Mail-Adresse stellen: <a href="mailto:&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;">&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;</a>.
 
 ## Quelle
 
