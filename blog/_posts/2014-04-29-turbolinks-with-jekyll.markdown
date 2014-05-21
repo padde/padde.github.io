@@ -3,11 +3,8 @@ layout: blog
 title:  "Turbolinks with Jekyll"
 ---
 
-Despite the fact that many people curse [Turbolinks](https://github.com/rails/turbolinks)
-for messing up their Javascript, I think it is a great way to improve the perceived rendering
-speed of a web page. When a page contains (almost) no Javascript, the setup is really simple.
-
-Turbolinks was built for Rails, but I was wondering whether it would be possible to use it
+[Turbolinks](https://github.com/rails/turbolinks) is a great way to improve the perceived rendering
+speed of a web page. It was built for Rails, but I was wondering whether it would be possible to use it
 with [Jekyll](http://jekyllrb.com), which powers this very site. Good news: It turned out to
 be incredibly simple! Here are the steps. Of course, you may need to adjust the location of
 your `javascripts` folder.
