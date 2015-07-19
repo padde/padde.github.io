@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/padde
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://patrickoscity.de
+  * I am padde (https://keybase.io/padde) on keybase.
+  * I have a public key with fingerprint 7B8E 3327 8E52 E3E1 8392  92AE CCBB 382F 5F9D 1786
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "7b8e33278e52e3e1839292aeccbb382f5f9d1786",
+            "host": "keybase.io",
+            "key_id": "CCBB382F5F9D1786",
+            "uid": "775390df98b72f969ce9489b58035b19",
+            "username": "padde"
+        },
+        "merkle_root": {
+            "ctime": 1437312372,
+            "hash": "46d3f3a6acb05939e991f726c342f3f97d1365efc514cced584383b6e585640561038294802915855d4a19d4caaf8df60781185dfdd425b7a1f1c42d4a75bbed",
+            "seqno": 264327
+        },
+        "service": {
+            "hostname": "patrickoscity.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1437312946,
+    "expire_in": 157680000,
+    "prev": "954b4ec79a9c3ea97694aaeddfcf53dfb9c52555a9c9bce33d82fb3a3d5c80d4",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFVkntQFVUcxy8vjZcgDC+BpMWcRm64r7O7h3R8oBQjpMRAMFi33T1nYeVy97b3
+8riBOT5KkWHGBCZNkIIGVBgqDYaGGhnDByo1pQNJMvGYETPKlFGzRm3XoYf719nz
++5zv+X5/57cv2McS4HWxT1hua4p61+vCz5Ilp6P9eCUhachDpFQSsl3FDre5cogl
+mEghirFHEl04WdUSHBrCyVtcCXOMlSjDukvVHAZFJvPJkNhqNXHzsKI6CrHu1FVT
+i+AlATMMzQsY0JjBlMBAGtIilmVJYgRaAQpEFC9whmSR5nI/cSvxWNOmImM3NXXt
+WoNPA2lw3Rxf+rjA84CBJFKgIPG0AjkoY8gKUAICyQCJgibowvpcJKeIEDbNlmC9
+2I5tuqY9Tiy7VbNOsQzPUDTD04Yd0VVknGA5xCiMyImyRALIQAwhpfA0JzMsrTAK
+5BHFcAArMqBYWcYICCwjMBKHgQA4lgQcRRq+DUskDSljDyBWpCBiZVFUBKRwJC9Q
+lACQghBLA4kXKYWSWdqgeCBJGBn+XfhNh0ak0BxrNHKr+a+XqTI2fZs9+zeaW1fl
+Ys0lq25PspHSSjh1za3Jmt2oFrndzhQzuNvjNOlyLHXZ5oRskupAxqv9/1kpA32y
+KZDlrASucKo6tqkmAXhOII3PvAeXGZoQsBKLZR6KUGawCHkOsqKIEVJkBTBIkaAM
+aACAUYaSbIwFMgZAYkQGAVkgEftfVNbwKRYaki610CG6S3Xjzaq943wtXgGWeX7e
+5txaAvxD/xnmke6Qh0vObkw/NhPInA+K60lsCi473MCFH0gZrYwMG6o5vej64rz7
+zsTruadWhF9oORhv952a2Pb8toIM//aXd4xlOVDzmdMzxzvh7vqWwdlv411xu84P
+H+7qbmpe9Pv65OVvpQRNhd33YYIPiuVdM82TjVm+1nOtnW3H7KFeNWEZl2ODNvWt
+Xvji4qRdWX+N/pjJl6xWR7orYvJbI1YHftKYO3wl7GxEeWrSvmzOOZZQk1R3K6Bx
+WFw3PZ5NBhc3NAH3Ws9swSZQOK+9+8TokqX9iTWDrUNDBf2htRUt3jfGQ47B7Ilt
+9SdPOL3PhFvXRIUsGEuNvv9pVZ/X7vHygeHvbkdFXa1Clm/+sL4a+PTs5wE3mzN/
+I/sadtqjgza8AVceOXI71lpds5janN6bNf0Ot2L/9o9He/X+kYgQn8LXFkzNuJK2
+12UeLV3VeYf2+pr64jaa/8OD/B565KeNPYPh9flf/lmUpF/z+2i8sKIlMsbn7vAp
+JW/zK2340YIWz7NH6msz9t77ZTw3en3xrbeHfLLX+H/26wt32qqnPmjVpu/GT47t
+3Jtx9NLDgou+kZMvpW3JmZ9+7ivn4e+zl2ZXkyvTiFjH6zGTyx59uEq7ceDQ1ed6
+bQt3TOQv2zDN2ueVD0R0jN87RL6X7sm5fKmq6uQzWX73aoPqGvdnVqoN7yda8m52
+XLnWM2CvfWqP9wN9+98=
+=lXYN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/padde
+
+==================================================================
