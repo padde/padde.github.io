@@ -8,7 +8,7 @@ title: Imprint
 #### Information in accordance with section 5 TMG
 
 Patrick Oscity<br>
-Rußheider Weg 8<br>
+An der Krücke 10<br>
 33604 Bielefeld<br>
 Germany
 
@@ -21,7 +21,7 @@ Website: [http://www.patrickoscity.de](http://www.patrickoscity.de)
 #### Person responsible for content in accordance with 55 Abs. 2 RStV
 
 Patrick Oscity<br>
-Rußheider Weg 8<br>
+An der Krücke 10<br>
 33604 Bielefeld<br>
 Germany
 
@@ -68,7 +68,7 @@ According to the Federal Data Protection Act, you have a right to free-of-charge
 #### Angaben gemäß § 5 TMG
 
 Patrick Oscity<br>
-Rußheider Weg 8<br>
+An der Krücke 10<br>
 33604 Bielefeld<br>
 Deutschland
 
@@ -81,7 +81,7 @@ Internetadresse: [http://www.patrickoscity.de](http://www.patrickoscity.de)
 #### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
 Patrick Oscity<br>
-Rußheider Weg 8<br>
+An der Krücke 10<br>
 33604 Bielefeld<br>
 Deutschland
 
