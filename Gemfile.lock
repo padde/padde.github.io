@@ -47,6 +47,7 @@ DEPENDENCIES
   jekyll
   kramdown
   rack-jekyll
+  rouge
   thin
 
 BUNDLED WITH
