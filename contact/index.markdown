@@ -3,7 +3,7 @@ layout: default
 title: Contact
 ---
 
-Please send me encrypted email to <a href="mailto:&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;">&#109;&#097;&#105;&#108;&#064;&#112;&#097;&#116;&#114;&#105;&#099;&#107;&#111;&#115;&#099;&#105;&#116;&#121;&#046;&#100;&#101;</a>. My PGP Fingerprint is
+Please send me encrypted email to <a href="mailto:hello@patrickoscity.de">hello@patrickoscity.de</a>. My PGP Fingerprint is
 
 {% highlight text %}
 CCBB 382F 5F9D 1786
