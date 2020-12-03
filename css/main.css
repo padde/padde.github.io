@@ -230,8 +230,7 @@ a.preview-image {
   float: right;
 }
 
-.preview-image,
-.project .content {
+.preview-image {
   clear: both;
 }
 
