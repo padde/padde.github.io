@@ -1,0 +1,51 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="800px" height="500px" viewbox="0 0 800 500">
+  <defs>
+    <filter id="colors">
+      <feTurbulence type="fractalNoise" baseFrequency=".0025" numOctaves="5" seed="47" />
+      <feColorMatrix type="hueRotate" values="0">
+        <animate attributeName="values" from="0" to="360" dur="17s" repeatCount="indefinite" />
+      </feColorMatrix>
+      <feColorMatrix
+        type="matrix"
+        values="2 0 0 0 -.3
+                0 2 0 0 -.3
+                0 0 2 0 -.3
+                0 0 0 2 0" />
+    </filter>
+    <filter id="clouds" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".0025" numOctaves="5" seed="27" />
+      <feColorMatrix type="hueRotate" values="0">
+        <animate attributeName="values" from="0" to="360" dur="23s" repeatCount="indefinite" />
+      </feColorMatrix>
+      <feColorMatrix
+        result="clouds"
+        type="matrix"
+        values="5 0 0 0 -1
+                5 0 0 0 -1
+                5 0 0 0 -1
+                1 0 0 0 0" />
+      <feBlend mode="soft-light" in="SourceGraphic" in2="clouds" />
+    </filter>
+    <filter id="clouds2" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".0025" numOctaves="5" seed="24" />
+      <feColorMatrix type="hueRotate" values="0">
+        <animate attributeName="values" from="0" to="360" dur="27s" repeatCount="indefinite" />
+      </feColorMatrix>
+      <feColorMatrix
+        result="clouds"
+        type="matrix"
+        values="3 0 0 0 -1
+                3 0 0 0 -1
+                3 0 0 0 -1
+                1 0 0 0 0" />
+      <feBlend mode="soft-light" in="SourceGraphic" in2="clouds" />
+    </filter>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="35" />
+      <feComponentTransfer>
+        <feFuncA type="discrete" tableValues="1 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" filter="url(#colors) url(#clouds) url(#clouds2) sepia(30%) url(#blur)" fill="none" />
+</svg>

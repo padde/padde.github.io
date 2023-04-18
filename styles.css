@@ -1,0 +1,90 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Inter, sans-serif;
+  color: #23153b;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('background.svg');
+  background-size: cover;
+  background-position: center center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+a {
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.icon-buttons {
+  margin: 100px 75px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.icon-button {
+  text-decoration: none;
+}
+
+.icon-button img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 30px;
+}
+
+footer a {
+  color: #23153b;
+  text-decoration: none;
+}
+
+#imprint {
+  display: none;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+#imprint:target {
+  display: block;
+}
