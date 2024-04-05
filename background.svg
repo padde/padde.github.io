@@ -1,53 +1,26 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="800px" height="500px" viewbox="0 0 800 500">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewbox="0 0 100 100">
   <defs>
     <filter id="colors">
-      <feTurbulence type="fractalNoise" baseFrequency=".0025" numOctaves="5" seed="47" />
+      <feTurbulence type="fractalNoise" baseFrequency="0.0112358" numOctaves="2" seed="3.14159" />
       <feColorMatrix type="hueRotate" values="0">
         <animate attributeName="values" from="0" to="360" dur="17s" repeatCount="indefinite" />
       </feColorMatrix>
-      <feColorMatrix
-        type="matrix"
-        values="2 0 0 0 -.3
-                0 2 0 0 -.3
-                0 0 2 0 -.3
-                0 0 0 2 0" />
-    </filter>
-    <filter id="clouds" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency=".0025" numOctaves="5" seed="27" />
-      <feColorMatrix type="hueRotate" values="0">
-        <animate attributeName="values" from="0" to="360" dur="23s" repeatCount="indefinite" />
-      </feColorMatrix>
-      <feColorMatrix
-        result="clouds"
-        type="matrix"
-        values="5 0 0 0 -.7
-                5 0 0 0 -.7
-                5 0 0 0 -.7
-                1 0 0 0 0" />
-      <feBlend mode="soft-light" in="SourceGraphic" in2="clouds" />
-      <animateTransform
-        attributeName="transform"
-        attributeType="XML"
-        type="rotate"
-        from="0 400 250"
-        to="360 400 250"
-        dur="2s"
-        repeatCount="indefinite" />
-    </filter>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="55" />
-      <feComponentTransfer>
-        <feFuncA type="discrete" tableValues="1 1"/>
-      </feComponentTransfer>
+      <feColorMatrix type="matrix" values="
+        2.0 0.1 0.0 0.0 0.1
+        0.0 2.0 0.1 0.0 0.1
+        0.0 0.0 2.0 0.1 0.1
+        0.0 0.0 0.0 2.0 0.0
+      " />
+      <feGaussianBlur stdDeviation="1" />
     </filter>
   </defs>
-  <rect width="1000" height="1000" x="-100" y="-250" filter="url(#colors) url(#clouds) sepia(30%) url(#blur)" fill="transparent">
+  <rect width="200" height="200" x="-50" y="-50" filter="url(#colors)" fill="transparent">
     <animateTransform
       attributeName="transform"
       attributeType="XML"
       type="rotate"
-      from="0 400 250"
-      to="360 400 250"
+      from="0 50 50"
+      to="360 50 50"
       dur="60s"
       repeatCount="indefinite" />
   </rect>

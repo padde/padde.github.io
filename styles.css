@@ -10,10 +10,13 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url('background.svg');
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+}
+
+#background {
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -1;
 }
 
 main {
