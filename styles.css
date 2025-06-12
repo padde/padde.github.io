@@ -37,12 +37,35 @@ h2 {
 }
 
 a {
-  opacity: 0.6;
-  transition: opacity 400ms;
+  color: #23153b;
 }
 
-a:hover {
-  opacity: 1;
+.cta-button {
+  margin-top: 50px;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: saturate(170%);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  transition: background 400ms, box-shadow 400ms, border 400ms;
+}
+
+.cta-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: saturate(200%);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.cta-button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .icon-buttons {
@@ -55,7 +78,14 @@ a:hover {
 
 .icon-button {
   text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 400ms;
 }
+
+.icon-button:hover {
+  opacity: 1;
+}
+
 
 .icon-button img {
   width: 30px;
