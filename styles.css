@@ -4,6 +4,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: Inter, sans-serif;
+  font-size: 16px;
   color: #23153b;
 }
 
@@ -22,17 +23,18 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -41,16 +43,16 @@ a {
 }
 
 .cta-button {
-  margin-top: 50px;
+  margin-top: 3rem;
   text-decoration: none;
-  border-radius: 12px;
-  padding: 12px 20px;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
   display: flex;
   align-items: center;
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: saturate(170%);
   border: 2px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
   font-weight: bold;
   transition: background 400ms, box-shadow 400ms, border 400ms;
 }
@@ -59,21 +61,21 @@ a {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: saturate(200%);
   border: 2px solid rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 2rem rgba(255, 255, 255, 0.8);
 }
 
 .cta-button img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.75rem;
 }
 
 .icon-buttons {
-  margin: 100px 75px 0;
+  margin: 6rem 4rem 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 1rem;
 }
 
 .icon-button {
@@ -88,14 +90,14 @@ a {
 
 
 .icon-button img {
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
 }
 
 footer {
   text-align: center;
-  font-size: 14px;
-  padding: 30px;
+  font-size: 0.875rem;
+  padding: 2rem;
 }
 
 footer a {
@@ -112,7 +114,7 @@ footer a {
   background: white;
   height: 100vh;
   width: 100vw;
-  padding: 40px;
+  padding: 2rem;
   box-sizing: border-box;
 }
 
