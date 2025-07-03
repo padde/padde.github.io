@@ -1,27 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewbox="0 0 500 500">
-  <filter id="colors" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency="0.001" numOctaves="2" />
-    <feColorMatrix type="hueRotate" values="0">
-      <animate attributeName="values" from="0" to="360" dur="27s" repeatCount="indefinite" />
-    </feColorMatrix>
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="0 1 0"></feFuncR>
-      <feFuncG type="table" tableValues="0 1 0"></feFuncG>
-      <feFuncB type="table" tableValues="0 1 0"></feFuncB>
-    </feComponentTransfer>
-    <feColorMatrix type="saturate" values="1.7" />
-    <feGaussianBlur stdDeviation="50" />
-  </filter>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" color-interpolation="sRGB" color-interpolation-filters="sRGB">
+  <defs>
+    <!-- Noise filter for subtle texture -->
+    <filter id="noiseFilter" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence baseFrequency="1.2" numOctaves="3" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="discrete" tableValues="0.02 0.04 0.06 0.08"/>
+      </feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
 
-  <rect x="-250" y="-250" width="1000" height="1000" style="filter: url(#colors)">
-    <animateTransform
-      attributeName="transform"
-      attributeType="XML"
-      type="rotate"
-      from="0 250 250"
-      to="360 250 250"
-      dur="60s"
-      repeatCount="indefinite" />
-  </rect>
+    <!-- Background linear gradient from bottom-left to top-right -->
+    <linearGradient id="baseLinear" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:hsl(220, 90%, 78%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(160, 90%, 78%);stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Top-left corner radial (smaller) -->
+    <radialGradient id="topLeft" cx="0%" cy="0%" r="80%">
+      <stop offset="0%" style="stop-color:hsl(285, 85%, 70%);stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:hsl(285, 25%, 70%);stop-opacity:0" />
+    </radialGradient>
+
+    <!-- Bottom-right corner radial (larger) -->
+    <radialGradient id="bottomRight" cx="100%" cy="100%" r="120%">
+      <stop offset="0%" style="stop-color:hsl(15, 100%, 50%);stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:hsl(15, 100%, 70%);stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#baseLinear)"/>
+  <rect width="100%" height="100%" fill="url(#topLeft)" style="mix-blend-mode:multiply"/>
+  <rect width="100%" height="100%" fill="url(#bottomRight)" style="mix-blend-mode:color-burn"/>
 </svg>
-
